@@ -79,3 +79,9 @@
   color: hsl(0, 0%, 45%);
   cursor: pointer;
 }
+
+.img-profile{
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 5px;
+}

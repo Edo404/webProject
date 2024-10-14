@@ -7,6 +7,9 @@ import Button from "./Button/Button"
 import Student from "./Student"
 import UserGreeting from "./UserGreeting"
 import List from "./List"
+import Button1 from "./Button1"
+import ProfilePicture from "./ProfilePicture"
+
 function App() {
 
   const fruits = [{id: 1, name: "apple", calories: 95}, 
@@ -36,6 +39,8 @@ function App() {
       <UserGreeting isLoggedIn={false} username="Edoardone"/>
       {fruits.length > 0 ? <List items={fruits} category="Fruits"/> : null}
       {vegetables.length > 0 ? <List items={vegetables} category="Vegetables"/> : null}
+      <Button1/>
+      <ProfilePicture/>
       <Footer/>
     </>
   );
