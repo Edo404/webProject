@@ -9,6 +9,8 @@ import UserGreeting from "./UserGreeting"
 import List from "./List"
 import Button1 from "./Button1"
 import ProfilePicture from "./ProfilePicture"
+import MyComponent from "./MyComponent"
+import Counter from "./Counter"
 
 function App() {
 
@@ -41,6 +43,8 @@ function App() {
       {vegetables.length > 0 ? <List items={vegetables} category="Vegetables"/> : null}
       <Button1/>
       <ProfilePicture/>
+      <MyComponent/>
+      <Counter/>
       <Footer/>
     </>
   );
