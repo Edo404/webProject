@@ -1,3 +1,5 @@
+//PROPS
+
 //import a file of node-modules "prop-types"
 //import PropTypes from 'prop-types' 
 
