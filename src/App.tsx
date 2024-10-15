@@ -12,6 +12,7 @@ import ProfilePicture from "./ProfilePicture"
 import MyComponent from "./MyComponent"
 import Counter from "./Counter"
 import MyComponent1 from "./MyComponent1"
+import ColorPicker from "./ColorPicker"
 
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
       <MyComponent/>
       <Counter/>
       <MyComponent1/>
+      <ColorPicker/>
       <Footer/>
     </>
   );
