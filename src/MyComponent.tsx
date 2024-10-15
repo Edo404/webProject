@@ -1,4 +1,13 @@
+//REACT HOOK
+//Special function that allows functional components
+//to use react features without writing class components
+//(useState, useEffect, useContext, useReducer, useCallback, and more..)
+
 //USE STATE
+
+//A react hook that allows the creation of a stateful vriable
+//AND a setter function to update its value in the Virtual DOM
+//[name, setName]
 import React, {useState} from 'react';
 
 function MyComponent(){

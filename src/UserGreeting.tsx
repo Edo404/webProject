@@ -1,4 +1,7 @@
 //CONDITIONAL RENDERING
+//Allows you to control what gets renderes in your application based on certain conditions
+//(show, hide, or change components)
+
 function UserGreeting(props){
 
     const welcomeMessage = <h2 className="welcome-message">Welcome {props.username}</h2>

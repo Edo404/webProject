@@ -1,4 +1,7 @@
 //PROPS
+//Read only properties that are shared between components.
+//A parent component can send data to a child component.
+//<Component key=value />
 
 //import a file of node-modules "prop-types"
 //import PropTypes from 'prop-types' 
