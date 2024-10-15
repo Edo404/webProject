@@ -11,6 +11,8 @@ import Button1 from "./Button1"
 import ProfilePicture from "./ProfilePicture"
 import MyComponent from "./MyComponent"
 import Counter from "./Counter"
+import MyComponent1 from "./MyComponent1"
+
 
 function App() {
 
@@ -45,6 +47,7 @@ function App() {
       <ProfilePicture/>
       <MyComponent/>
       <Counter/>
+      <MyComponent1/>
       <Footer/>
     </>
   );
