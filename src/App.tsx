@@ -13,6 +13,7 @@ import MyComponent from "./MyComponent"
 import Counter from "./Counter"
 import MyComponent1 from "./MyComponent1"
 import ColorPicker from "./ColorPicker"
+import MyComponent2 from "./MyComponent2"
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
       <Counter/>
       <MyComponent1/>
       <ColorPicker/>
+      <MyComponent2/>
       <Footer/>
     </>
   );
