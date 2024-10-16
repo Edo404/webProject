@@ -22,10 +22,6 @@ function MyComponent1(){
         setQuantity(event.target.value);
     }
 
-    function handleQuantityChange(event){
-        setQuantity(event.target.value);
-    }
-
     function handleCommentChange(event){
         setComment(event.target.value);
     }
