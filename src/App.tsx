@@ -19,6 +19,7 @@ import MyComponent4 from "./MyComponent4"
 import MyComponent5 from "./MyComponent5"
 import MyComponent6 from "./MyComponent6"
 import MyComponent7 from "./MyComponent7"
+import ComponentA from "./ComponentA"
 
 
 function App() {
@@ -62,6 +63,7 @@ function App() {
       <MyComponent5/>
       <MyComponent6/>
       <MyComponent7/>
+      <ComponentA/>
       <Footer/>
     </>
   );
